@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>Blog - MySite</title></head>
+<body>
+    <h1>Latest Blog Posts</h1>
+
+    <article>
+        <h2>Why Learn Django in 2025?</h2>
+        <p>Django is fast, secure, and perfect for developers who want to move quickly. With built-in tools and an active community, it's a top choice for startups and enterprises.</p>
+    </article>
+
+    <article>
+        <h2>Frontend Frameworks Compared: React vs Vue</h2>
+        <p>React has a huge ecosystem and is perfect for complex apps. Vue is simpler and more beginner-friendly. Pick what fits your project!</p>
+    </article>
+
+    <nav>
+        <a href="{% url 'home' %}">Home</a> |
+        <a href="{% url 'about' %}">About</a> |
+        <a href="{% url 'services' %}">Services</a> |
+        <a href="{% url 'contact' %}">Contact</a> |
+        <a href="{% url 'blog' %}">Blog</a>
+    </nav>
+</body>
+</html>

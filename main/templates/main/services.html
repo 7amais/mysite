@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Services - MySite</title></head>
+<body>
+    <h1>Our Services</h1>
+
+    <ul>
+        <li><strong>Web Development:</strong> Custom websites using Django, React, and TailwindCSS.</li>
+        <li><strong>Mobile App Development:</strong> Cross-platform apps with Flutter and React Native.</li>
+        <li><strong>UI/UX Design:</strong> Clean, user-friendly interfaces for web and mobile.</li>
+        <li><strong>Database Design:</strong> Scalable solutions with PostgreSQL, MySQL, and MongoDB.</li>
+    </ul>
+
+    <nav>
+        <a href="{% url 'home' %}">Home</a> |
+        <a href="{% url 'about' %}">About</a> |
+        <a href="{% url 'services' %}">Services</a> |
+        <a href="{% url 'contact' %}">Contact</a> |
+        <a href="{% url 'blog' %}">Blog</a>
+    </nav>
+</body>
+</html>
